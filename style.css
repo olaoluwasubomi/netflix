@@ -219,7 +219,7 @@ hr{
     margin-bottom:40px;
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width:900px){
    body{
        width:100%;
        min-height:100vh;
@@ -228,11 +228,14 @@ hr{
        width:90%;
    }
    .first-1 h2,.first-1 a{
-       margin-top:10px;
+       margin-top:2.5em;
        margin-right:0px;
    }
    .first-1 h2{
        font-size:30px;
+   }
+   .first-1 a{
+       font-size:1.3em;
    }
    .first-2{
        width:90%;
@@ -240,16 +243,16 @@ hr{
    }
    .first-2 h1{
        width:100%;
-       font-size:23px;
+       font-size:2.4em;
    }
    .first-2 p{
-       font-size:17px;
+       font-size:1.4em;
    }
    .first-3{
        margin-top:20px;
    }
    .first-3 p{
-       font-size:17px;
+       font-size:1.6em;
        width:65%;
        margin:0 auto;
    }
@@ -265,6 +268,7 @@ hr{
        width:90%;
        margin:0 auto;
        flex-direction:column;
+       /* display:none;  */
        text-align:center;
    }
    .second-1 h2{
@@ -307,6 +311,8 @@ hr{
    }
    .five-img{
        width:100%;
+       height:300px;
+       /* display:none; */
        /* display:none; */
    }
    .questions-1{
@@ -336,5 +342,7 @@ hr{
        font-size:15px;
        margin-top:10px;
    }
-
+   .text{
+       padding-bottom:2em;
+   }
 }
